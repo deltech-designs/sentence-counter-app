@@ -50,7 +50,7 @@ body {
   padding: 1rem;
   width: 20vw;
   border-radius: 5px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2), 0px 4px 12px rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2), 0px 4px 8px rgba(0, 0, 0, 0.19);
 
 }
 
@@ -82,12 +82,27 @@ body {
 @media screen and (max-width: 600px){
 
   .container{
-    padding: 0.5rem; 
+    flex-direction: column;
+    padding: 1rem; 
   }
 
-  .output{
+  .inner-container{
     flex-direction: column;
     gap: 2rem;
+    margin-top: 6rem;
+  }
+
+  .input-container{
+    order: 2;
+  }
+
+
+  .output-container{
+    order: 1;
+    width: 100%;
+  }
+
+  .textarea{
     width: 100%;
   }
 }

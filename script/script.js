@@ -1,5 +1,4 @@
 
-
 const textarea = document.querySelector('.textarea'); 
 
 function adjustHeight(ev) {
