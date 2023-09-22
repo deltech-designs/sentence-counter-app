@@ -2,7 +2,7 @@
 const textarea = document.querySelector('.textarea'); 
 
 function adjustHeight(ev) {
-    // ev.preventDefault();
+    ev.preventDefault();
 
     textarea.style.height = '30vh'; 
     textarea.style.height = textarea.scrollHeight + 'px'; 
